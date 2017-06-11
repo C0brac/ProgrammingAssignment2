@@ -1,10 +1,6 @@
 ## -------------------------->Homework Week 4
 
 ## cache the inverse of matix
-#made a matrix in order to test
-A <- matrix( c(5, 1, 0,
-               3,-1, 2,
-               4, 0,-1), nrow=3, byrow=TRUE)
 
 #this Function will assign and cache the matrix
 makeCacheMatrix <- function(x = matrix()) {
