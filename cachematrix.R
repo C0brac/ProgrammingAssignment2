@@ -27,7 +27,8 @@ cacheSolve <- function(x, ...) {
         }
         #Else, here we go making it inversed
         data<- x$get()
-        p<- solve(data, ...) 
+        p<- solve(data, ...) #Solve() function is key to making it inversed. consideing all Matrises are capable in this scenario
         x$setInverse(p)
         return(p)
+         #returns our inversed Matrix
 }
